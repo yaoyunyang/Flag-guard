@@ -1,0 +1,46 @@
+.topBar{
+  height:140rpx;
+  background-color: rgb(153, 187, 169);
+  display: flex;
+  flex-direction: row;
+  padding:20rpx 51rpx 20rpx 51rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+.topBar-item{
+  width:110rpx;
+  height:110rpx;
+
+}
+.topBar-item image{
+  width:110rpx;
+  height:110rpx;
+}
+.middle{
+  display: flex;
+  flex-direction: column;
+  margin:100rpx 0 0 0;
+  height:700rpx;
+  justify-content: space-between; 
+  
+}
+.nkfg{
+  display: flex;
+  justify-content: center;
+  height:338rpx;
+}
+.nkfgwxss{
+  height:100%;
+  width:605rpx;
+}
+.gxfgwxss{
+  height:100%;
+  width:605rpx;
+}
+
+.gxfg{
+  display: flex;
+  justify-content: center;
+  /* margin:0 0 0 20rpx; */
+  height:299rpx;
+}

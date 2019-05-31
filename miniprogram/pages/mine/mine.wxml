@@ -1,0 +1,14 @@
+<view class="_">
+<view class="all">
+  <image src="../../images/duihui.png"/>
+  <view class="name">南开大学国旗护卫队</view>
+  <text decode="{{true}}" class="intro">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;南开大学国旗护卫队始创于1998年，复建于2015年4月17日，是由南开大学人民武装部直接领导和管理的准军事化爱国主义学生社团组织。南开国护主要负责南开大学日常升降旗、重大节日庆典升降旗及迎接外宾等仪仗司礼任务，其队训为“忠诚、纪律、职责、担当”，其宗旨是“学生社团的标杆，国防教育的旗帜，对外交流的窗口”。发展目标是成为“天津一流、全国前列”的国旗护卫队。</text>
+  
+</view>
+<view class="text_">
+<text decode="{{true}}" class="intro_">建队时间&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1998年</text>
+  <text decode="{{true}}" class="intro_">复建时间&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015年4月17日</text>
+  <text decode="{{true}}" class="intro_">队训&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;忠诚;&nbsp;&nbsp;纪律;&nbsp;&nbsp;职责;&nbsp;&nbsp;担当</text>
+  <text decode="{{true}}" class="intro_">组织架构&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;政治指导部&nbsp;&nbsp;训练股&nbsp;&nbsp;团支部\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;宣传股&nbsp;&nbsp;保障股&nbsp;&nbsp;监察股</text>
+  </view>
+  </view>

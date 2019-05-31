@@ -1,0 +1,41 @@
+.swiper{
+  /* padding: 20rpx 30rpx 10rpx 30rpx; */
+  height: 300rpx;
+  display: flex;
+  justify-content: center;
+}
+.swiper image{
+  /* border-radius: 20rpx; */
+  height: 300rpx;
+  width: 750rpx; 
+}
+.departments{
+  display: flex;
+  flex-direction: column;
+  padding: 81rpx 85rpx 81rpx 85rpx;
+}
+.first{
+  display: flex;
+  flex-direction: row;
+  width:575rpx;
+  height:300rpx;
+  justify-content: space-between;
+  margin:0 0 50rpx 0;
+}
+.second{
+  display: flex;
+  flex-direction: row;
+  width:575rpx;
+  height:300rpx;
+  justify-content: space-between;
+}
+.branch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between
+}
+.branch image{
+  width:233rpx;
+  height:233rpx;
+}

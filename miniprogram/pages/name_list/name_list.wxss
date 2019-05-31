@@ -1,0 +1,157 @@
+
+.topBar{
+  height:140rpx;
+  background-color: rgb(153, 187, 169);
+  display: flex;
+  flex-direction: row;
+  padding:20rpx 51rpx 20rpx 51rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+.topBar-item{
+  width:110rpx;
+  height:110rpx;
+
+}
+.topBar-item image{
+  width:110rpx;
+  height:110rpx;
+}
+
+
+.list{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  background-color: #E7FEF6;
+  justify-content: space-between;
+  padding:20rpx 15rpx 0rpx 15rpx;
+}
+.back_scroll{
+  background-color:#E7FEF6;
+  height:945rpx;
+}
+.item{
+  display: flex;
+  flex-direction:row;
+  width:355rpx;
+  height:90rpx;
+  justify-content: space-between;
+  margin-bottom: 15rpx;
+ 
+  
+}
+.avatar{
+  width:90rpx;
+  height:90rpx;
+  border-radius: 30rpx;
+  margin-left:10rpx;
+  background-color: #E7FEF6;
+}
+.avatar image{
+  width:90rpx;
+  height:90rpx;
+  border-radius: 30rpx;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  height:90rpx;
+  width:270rpx;
+  justify-content: space-between;
+  border-bottom: 1px solid #D8D8D8;
+}
+.nickname{
+  font-size: 24rpx;
+  height:18rpx;
+  width:80rpx;
+  margin-left: 15rpx;
+  margin-top:9rpx;
+}
+.other_info{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  height:18rpx;
+  width:250rpx;
+  margin-left: 15rpx;
+  margin-bottom:9rpx;
+}
+.xueyuan{
+  font-size: 18rpx;
+  color:#979797
+}
+.nianji{
+  font-size: 14rpx;
+  padding-top:4rpx;
+  color:#979797
+}
+.plus{
+  position: relative;
+  background-color:#E7FEF6;
+  display: flex;
+  height:83rpx;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.plus image{
+  position:absolute;
+  bottom:6rpx;
+  width:607rpx;
+  height:71rpx;
+}
+
+
+
+/* 蒙版弹窗 */
+.mask{
+  width:100%;   
+  height:100%;   
+  top:0;   
+  
+  overflow: hidden;   
+  /*要显示在wrap的上面 */   
+  z-index: 1;   
+  position: absolute; 
+}
+.content-container{
+  position: absolute; 
+  top:10%;
+  left:6%;
+  z-index: 2;  
+  width:600rpx;
+  
+  border-radius: 30rpx;
+  padding: 30rpx 30rpx 30rpx 30rpx;
+  background: rgba(255,255,255,0.66);
+  box-shadow: 0 2rpx 4rpx #000
+}
+.more_info{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start
+}
+.more_avatar{
+  width:122rpx;
+  height:122rpx;
+  background-color: skyblue;
+  border-radius: 30rpx;
+  margin-right: 20rpx;
+}
+.more_text{
+  display: flex;
+  flex-direction: column;
+  width:500rpx;
+}
+.text_form1{
+  font-size:40rpx;
+  color: #000000;
+  margin-bottom: 20rpx;
+}
+.text_form2{
+  font-size:34rpx;
+  color: #979797;
+  margin-bottom: 20rpx;
+}

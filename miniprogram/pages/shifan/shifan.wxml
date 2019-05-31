@@ -1,0 +1,66 @@
+<view style="filter:blur({{blur_rank}}rpx)">
+  <view class="topBar">
+    <view class="topBar-item">
+      <image src="../../images/NK/xunlian_icon_selected.png" />
+    </view>
+
+    <view class="topBar-item">
+      <image src="../../images/NK/tuan_icon.png" />
+    </view>
+
+    <view class="topBar-item">
+      <image src="../../images/NK/baozhang_icon.png" />
+    </view>
+
+    <view class="topBar-item">
+      <image src="../../images/NK/xuanchuan_icon.png" />
+    </view>
+  </view>
+
+
+  <image class="background" src="../../images/tiaoling_beijing.png" />
+
+  <view class="three_line">
+    <view class="fst_thrd" bindtap="on_intro" data-from='降旗动作要领'>
+      <text>降旗动作要领</text>
+      <image src="../../images/jiantou.png" />
+    </view>
+    <view class="second" bindtap="on_intro" data-from='扬旗动作要领'>
+      <text>扬旗动作要领</text>
+      <image src="../../images/jiantou.png" />
+    </view>
+    <view class="fst_thrd" bindtap="on_intro" data-from='刀手动作要领'>
+      <text>刀手动作要领</text>
+      <image src="../../images/jiantou.png" />
+    </view>
+  </view>
+
+  <view class="three_line">
+    <view class="fst_thrd" bindtap="on_intro" data-from='升旗流程'>
+      <text>升旗流程</text>
+      <image src="../../images/jiantou.png" />
+    </view>
+    <view class="second" bindtap="on_intro" data-from='礼步'>
+      <text>礼步</text>
+      <image src="../../images/jiantou.png" />
+    </view>
+    <view class="fst_thrd" bindtap="on_intro" data-from='花枪'>
+      <text>花枪</text>
+      <image src="../../images/jiantou.png" />
+    </view>
+  </view>
+</view>
+
+<view class="mask" wx:if="{{show}}" bindtap='close' catchtouchmove='maskTouchMove'></view>
+
+<view class="content-container" wx:if="{{show}}" catchtouchmove='touchMove'>
+  <view class="more_intro">
+    <view class="two_text_part" selectable='true'>
+      <text class="title_form">{{action_name}}</text>
+      <scroll-view scroll-y="true" class="scroll_">
+        <text class="text_form" decode="true" space="nbsp">{{details}}</text>
+      </scroll-view>
+    </view>
+    <image src="{{picture}}" />
+  </view>
+</view>

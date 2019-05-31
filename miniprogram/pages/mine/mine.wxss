@@ -1,0 +1,34 @@
+._{
+  background-color: #E7FEF6; 
+  height:2000rpx;
+}
+.all{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:20rpx 15rpx 0 15rpx;
+  flex-wrap: wrap;
+}
+.all image{
+  width:300rpx;
+  height:300rpx;
+}
+.name{
+  font-size:30rpx;
+  margin-bottom: 15rpx;
+}
+.intro{
+    font-size:25rpx;
+    margin-top:30rpx;
+    margin-bottom: 30rpx;
+}
+.text_{
+  margin-left: 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+.intro_{
+  font-size:30rpx;
+  margin-top:30rpx;
+  margin-bottom: 30rpx;
+}

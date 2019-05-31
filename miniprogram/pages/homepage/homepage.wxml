@@ -1,0 +1,20 @@
+<view class="backView">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="swiper">
+    <block wx:for="{{imgUrls}}" wx:key="id">
+      <swiper-item>
+        <image src="{{item.path}}" catchtap="preview" data-id_="{{index}}" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <image class='blackImage' src='../../images/background.png' />
+  <view class="middle">
+    <view class="nkfg">
+      <image bindtap="to_nk" class='nkfgwxss' src="../../images/nkfg.png" />
+
+    </view>
+    <view class="gxfg" bindtap="to_more">
+      <image bindtap="chat" class='gxfgwxss' src="../../images/gxfg.png" />
+    </view>
+  </view>
+</view>

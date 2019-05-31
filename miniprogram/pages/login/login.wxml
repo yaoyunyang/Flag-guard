@@ -1,0 +1,37 @@
+<view class="all">
+  <view class="container">
+    <view class="avatar">
+      <image src="{{avatar}}" mode="aspectFill" bindtap="upload_photo" />
+    </view>
+    <view class="login_info">
+      <view style="margin-bottom:42rpx">
+        <input placeholder='国护队员识别码' type="number" maxlength="8" auto-focus='true' class="name_input" bindblur="input_code" />
+      </view>
+      <view style="margin-bottom:42rpx">
+        <input placeholder='姓名' auto-focus='true' class="name_input" bindblur="input_name" />
+      </view>
+      <view style="margin-bottom:42rpx">
+        <picker mode="date" value="{{birthday}}" start="1970-01-01" end="2019-09-01" bindchange="bindDateChange">
+          <view class="birth">
+            {{birthday}}
+          </view>
+        </picker>
+      </view>
+      <view style="margin-bottom:42rpx">
+        <input placeholder='学院' auto-focus='true' class="name_input" bindblur="input_department" />
+      </view>
+      <view style="margin-bottom:42rpx">
+        <input placeholder='年级' type="number" maxlength="2" auto-focus='true' class="name_input" bindblur="input_grade" />
+      </view>
+      <view style="margin-bottom:42rpx">
+        <input placeholder='所在部门' auto-focus='true' class="name_input" bindblur="input_position" />
+      </view>
+      <view style="margin-bottom:42rpx">
+        <input placeholder='一句话' auto-focus='true' class="name_input" bindblur="input_one_word" />
+      </view>
+    </view>
+  </view>
+  <view class="commit" bindtap="login_">
+    <text>登记</text>
+  </view>
+</view>

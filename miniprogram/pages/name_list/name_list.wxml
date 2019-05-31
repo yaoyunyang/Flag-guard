@@ -1,0 +1,61 @@
+<view style="filter:blur({{blur_rank}}rpx)">
+  <view class="all">
+    <view class="topBar">
+      <view class="topBar-item">
+        <image src="../../images/NK/xunlian_icon.png" />
+      </view>
+
+      <view class="topBar-item">
+        <image src="../../images/NK/tuan_icon_selected.png" />
+      </view>
+
+      <view class="topBar-item">
+        <image src="../../images/NK/baozhang_icon.png" />
+      </view>
+
+      <view class="topBar-item">
+        <image src="../../images/NK/xuanchuan_icon.png" />
+      </view>
+    </view>
+
+    <scroll-view scroll-y="true" class="back_scroll">
+      <view class="list">
+        <block wx:for="{{members}}" wx:key="" >
+          <view class="item" bindtap="for_more_info" data-index="{{index}}">
+            <view class="avatar">
+              <image src="{{item.avatar}}" mode="aspectFill" />
+            </view>
+            <view class="info">
+              <view class="nickname">{{item.name}}</view>
+              <view class="other_info">
+                <view class="xueyuan">{{item.department}}</view>
+                <view class="nianji">{{item.grade}}·{{item.position}}</view>
+              </view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </scroll-view>
+
+    <view class="plus">
+      <image src="../../images/plus_members.png" bindtap="plus_login" />
+    </view>
+  </view>
+
+</view>
+<view class="mask" wx:if="{{show}}" bindtap='close' catchtouchmove='maskTouchMove'></view>
+
+<view class="content-container" wx:if="{{show}}" catchtouchmove='touchMove'>
+  <view class="more_info">
+    <image src="{{avatar}}" mode="aspectFill" class="more_avatar">
+    </image>
+    <view class="more_text">
+      <text class="text_form1" selectable='true'>{{name}}</text>
+      <text class="text_form2" selectable='true'>{{position}}</text>
+      <text class="text_form2" selectable='true'>年级：20{{grade}}</text>
+      <text class="text_form2" selectable='true'>学院：{{department}}</text>
+      <text class="text_form2" selectable='true'>生日：{{birthday}}</text>
+      <text class="text_form2" selectable='true'>{{one_word}}</text>
+    </view>
+  </view>
+</view>

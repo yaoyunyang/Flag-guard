@@ -1,0 +1,149 @@
+
+.topBar{
+  height:140rpx;
+  background-color: rgb(153, 187, 169);
+  display: flex;
+  flex-direction: row;
+  padding:20rpx 51rpx 20rpx 51rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+.topBar-item{
+  width:110rpx;
+  height:110rpx;
+
+}
+.topBar-item image{
+  width:110rpx;
+  height:110rpx;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  padding: 100rpx 52.5rpx 100rpx 52.5rpx;
+  
+}
+
+.part{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  width:645rpx;
+  height:268rpx;
+}
+.item1{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:50%;
+  height:100%;
+  border-right:1px solid #979797;
+  border-bottom:1px solid #979797;
+}
+.item2{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:50%;
+  height:100%;
+  border-bottom:1px solid #979797;
+}
+.item3{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:50%;
+  height:100%;
+  border-right:1px solid #979797;
+}
+.item1 image{
+  margin-top:50rpx;
+  width: 144rpx;
+  height:126rpx;
+}
+.item2 image{
+  margin-top:31rpx;
+  width: 118rpx;
+  height:145rpx;
+}
+.item3 image{
+  margin-top:50rpx;
+  width: 118rpx;
+  height:145rpx;
+}
+.item1 text{
+  margin-top:30rpx;
+  font-size:24rpx;
+}
+.item2 text{
+  margin-top:30rpx;
+  font-size:24rpx;
+}
+.item3 text{
+  margin-top:30rpx;
+  font-size:24rpx;
+}
+
+
+
+
+
+
+
+
+/* 蒙版弹窗 */
+.mask{
+  width:100%;   
+  height:100%;   
+  top:0;   
+  background:rgba(0, 0, 0, 0.5);   
+  overflow: hidden;   
+  /*要显示在wrap的上面 */   
+  z-index: 1;   
+  position: absolute; 
+}
+.content-container{
+  position: absolute; 
+  top:10%;
+  left:6%;
+  z-index: 2;  
+  width:80%;
+  height:80%;
+  border-radius: 30rpx;
+  padding: 15rpx 30rpx 0 30rpx;
+  background: rgba(255,255,255,0.5);
+  box-shadow: 0 2rpx 4rpx #000,
+              0 1rpx 3rpx #463A3A inset;
+}
+.more_intro{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.two_text_part{
+  height:55%;
+  font-size:30rpx;
+}
+.scroll_{
+  height:100%;
+}
+.title_form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: 500;
+  font-size:40rpx;
+}
+
+.more_intro image{
+  height:35%;
+  width:100%;
+  margin-bottom: 15rpx;
+  border-radius: 30rpx;
+  /* background-color: blue; */
+}

@@ -1,0 +1,63 @@
+<view style="filter:blur({{blur_rank}}rpx)">
+  <view class="topBar">
+    <view class="topBar-item">
+      <image src="../../images/NK/xunlian_icon.png" />
+    </view>
+
+    <view class="topBar-item">
+      <image src="../../images/NK/tuan_icon.png" />
+    </view>
+
+    <view class="topBar-item">
+      <image src="../../images/NK/baozhang_icon_selected.png" />
+    </view>
+
+    <view class="topBar-item">
+      <image src="../../images/NK/xuanchuan_icon.png" />
+    </view>
+  </view>
+  <view class="content">
+    <view class="part">
+      <view class="item1" bindtap="on_intro" data-from='礼宾服'>
+        <image src="../../images/libinfu.png" />
+        <text>礼宾服</text>
+      </view>
+      <view class="item2" bindtap="on_intro" data-from='指挥刀'>
+        <image src="../../images/zhihuidao.png" />
+        <text>指挥刀</text>
+      </view>
+    </view>
+
+    <view class="part">
+      <view class="item1" bindtap="on_intro" data-from='作训服'>
+        <image src="../../images/zuoxunfu.png" />
+        <text>作训服</text>
+      </view>
+      <view class="item2" bindtap="on_intro" data-from='95式自动步枪'>
+        <image src="../../images/95.png" />
+        <text>95式半自动步枪</text>
+      </view>
+    </view>
+
+    <view class="part">
+      <view class="item3" bindtap="on_intro" data-from='礼宾枪'>
+        <image src="../../images/libinqiang.png" />
+        <text>礼宾枪</text>
+      </view>
+    </view>
+  </view>
+
+</view>
+<view class="mask" wx:if="{{show}}" bindtap='close' catchtouchmove='maskTouchMove'></view>
+
+<view class="content-container" wx:if="{{show}}" catchtouchmove='touchMove'>
+  <view class="more_intro">
+    <view class="two_text_part" selectable='true'>
+      <text class="title_form">{{equips_name}}</text>
+      <scroll-view scroll-y="true" class="scroll_">
+        <text class="text_form">{{equips_intro}}</text>
+      </scroll-view>
+    </view>
+    <image src="{{picture}}" />
+  </view>
+</view>

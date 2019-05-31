@@ -1,4 +1,5 @@
 //app.js
+
 App({
   onLaunch: function () {
     
@@ -7,9 +8,10 @@ App({
     } else {
       wx.cloud.init({
         traceUser: true,
+        env: "test-b74194"
       })
     }
-
+    
     this.globalData = {}
   }
 })

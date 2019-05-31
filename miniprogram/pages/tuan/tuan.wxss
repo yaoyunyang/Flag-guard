@@ -1,0 +1,57 @@
+.topBar{
+  height:140rpx;
+  background-color: rgb(153, 187, 169);
+  display: flex;
+  flex-direction: row;
+  padding:20rpx 51rpx 20rpx 51rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+.topBar-item{
+  width:110rpx;
+  height:110rpx;
+
+}
+.topBar-item image{
+  width:110rpx;
+  height:110rpx;
+}
+.fst_part{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding:140rpx 45rpx 0 45rpx;
+  justify-content: space-between;
+}
+.fst_part image{
+  width:304rpx;
+  height:269rpx;
+}
+.scd_part{
+  padding:60rpx 45rpx 0 45rpx;
+}
+.scd_part image{
+  width:656rpx;
+  height:203rpx;
+}
+.renyuan{
+  position: absolute;
+  top:540rpx;
+  left:100rpx;
+  font-size:16rpx;
+  z-index: 3;
+}
+.kaoqin{
+  position: absolute;
+  top:540rpx;
+  left:460rpx;
+  font-size:16rpx;
+  z-index: 3;
+}
+.teshurizi{
+ position: absolute;
+  top:810rpx;
+  left:100rpx;
+  font-size:16rpx;
+  z-index: 3;
+}

@@ -1,0 +1,66 @@
+.all{
+  background:linear-gradient(to right, #4AD6F0 , #7CFFB3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:1334rpx;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top:150rpx;
+}
+.avatar{
+  width:150rpx;
+  height:150rpx;
+  border-radius: 30rpx;
+  margin-right:40rpx;
+  margin-bottom: 100rpx;
+}
+.avatar image{
+  width:150rpx;
+  height:150rpx;
+  border-radius: 30rpx;
+}
+.name_input{
+  width:435rpx;
+  height:63rpx;
+  border-radius: 30rpx;
+  background-color: #ffff;
+  padding:0 0 0 40rpx;
+  font-size:35rpx;
+  color:#808080;
+}
+.birth{
+  width:435rpx;
+  height:63rpx;
+  border-radius: 30rpx;
+  background-color: #ffff;
+  padding:0rpx 0 0 40rpx;
+  font-size:35rpx;
+  color:#808080;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.commit{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width:447rpx;
+  height:76rpx;
+  margin-top: 150rpx;
+  border-radius: 30rpx;
+  background-color: #31FF00;
+  align-items: center;
+  box-shadow: 0 2rpx 3rpx #2E4236;
+
+}
+.commit text{
+  font-size: 35rpx;
+  color:#ffff;
+  font-weight: 800;
+  
+}

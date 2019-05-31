@@ -1,0 +1,36 @@
+<!-- 日历年月 -->
+<view class='calendar_title'>
+  <view class='icon' bindtap='lastMonth'>
+    <image src='../../images/to_left.png' />
+  </view>
+  <view>{{year}}年{{month}}月</view>
+  <view class='icon' bindtap='nextMonth'>
+    <image src='../../images/to.png' />
+  </view>
+</view>
+
+<!-- 日历主体 -->
+<view class='calendar'>
+  <view class='header'>
+    <view wx:for='{{date}}' wx:key='' class='{{(index == todayIndex) && isTodayWeek ? "weekMark" : ""}}'>
+     {{item}}
+      <view></view>
+    </view>
+  </view>
+
+  <view class='date-box'>
+    <block wx:for='{{dateArr}}' wx:key=''>
+      <view class='{{isToday == item.isToday ? "nowDay" : ""}}' >
+        <view class='date-head' bindtap='isClicked' data-index='{{index}}' data-year='{{year}}' data-month='{{month}}' data-datenum='{{item.dateNum}}'>
+          <view class='{{index == isMe_index?"isClicked" : ""}}'>{{item.dateNum}}</view>
+          
+        </view>
+      </view>
+    </block>
+  </view>
+
+</view>
+
+<view class="show_congratulation" wx:if="{{who}}">
+祝{{who}}生日快乐🎂
+</view>

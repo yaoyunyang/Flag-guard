@@ -1,0 +1,86 @@
+<view style="filter:blur({{blur_rank}}rpx)">
+  <view class="topBar">
+    <view class="topBar-item">
+      <image src="../../images/NK/xunlian_icon_selected.png" />
+    </view>
+
+    <view class="topBar-item">
+      <image src="../../images/NK/tuan_icon.png" />
+    </view>
+
+    <view class="topBar-item">
+      <image src="../../images/NK/baozhang_icon.png" />
+    </view>
+
+    <view class="topBar-item">
+      <image src="../../images/NK/xuanchuan_icon.png" />
+    </view>
+  </view>
+
+  <image class="background" src="../../images/tiaoling_beijing.png" />
+
+  <view class="three_line">
+    <view class="fst_thrd" bindtap="on_intro" data-from='立正与稍息'>
+      <text>立正与稍息</text>
+      <image src="../../images/jiantou.png" />
+    </view>
+    <view class="second" bindtap="on_intro" data-from='跨立与立正'>
+      <text>跨立与立正</text>
+      <image src="../../images/jiantou.png" />
+    </view>
+    <view class="fst_thrd" bindtap="on_intro" data-from='停止间转法'>
+      <text>停止间转法</text>
+      <image src="../../images/jiantou.png" />
+    </view>
+  </view>
+
+  <view class="three_line">
+    <view class="fst_thrd" bindtap="on_intro" data-from='齐步的行进与立定'>
+      <text>齐步的行进与立定</text>
+      <image src="../../images/jiantou.png" />
+    </view>
+    <view class="second" bindtap="on_intro" data-from='正步的行进与立定'>
+      <text>正步的行进与立定</text>
+      <image src="../../images/jiantou.png" />
+    </view>
+    <view class="fst_thrd" bindtap="on_intro" data-from='跑步的行进与立定'>
+      <text>跑步的行进与立定</text>
+      <image src="../../images/jiantou.png" />
+    </view>
+  </view>
+
+  <view class="one_line">
+    <view class="fst_thrd" bindtap="on_intro" data-from='跑步与立定'>
+      <text>跑步与立定</text>
+      <image src="../../images/jiantou.png" />
+    </view>
+  </view>
+
+  <view class="three_line">
+    <view class="fst_thrd" bindtap="on_intro" data-from='脱帽与戴帽'>
+      <text>脱帽与戴帽</text>
+      <image src="../../images/jiantou.png" />
+    </view>
+    <view class="second" bindtap="on_intro" data-from='敬礼与礼毕'>
+      <text>敬礼与礼毕</text>
+      <image src="../../images/jiantou.png" />
+    </view>
+    <view class="fst_thrd" bindtap="on_intro" data-from='蹲下与起立'>
+      <text>蹲下与起立</text>
+      <image src="../../images/jiantou.png" />
+    </view>
+  </view>
+</view>
+<view class="mask" wx:if="{{show}}" bindtap='close' catchtouchmove='maskTouchMove'></view>
+
+<view class="content-container" wx:if="{{show}}" catchtouchmove='touchMove'>
+  <view class="more_intro">
+    <view class="two_text_part" selectable='true'>
+      <text class="title_form">{{action_name}}</text>
+      <scroll-view scroll-y="true" class="scroll_">
+        <text class="text_form" decode="true" space="nbsp">{{description}}</text>
+      </scroll-view>
+    </view>
+    <image src="{{picture}}" />
+  </view>
+</view>

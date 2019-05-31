@@ -1,20 +1,49 @@
 {
+  "cloud": true,
   "pages": [
-    "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi"
+    "pages/homepage/homepage",
+    "pages/calendar/calendar",
+    "pages/login/login",
+
+    "pages/name_list/name_list",
+ 
+    "pages/select_date/select_date",
+    
+  
+   
+    
+    "pages/mine/mine",
+    "pages/tiaoling/tiaoling",
+    "pages/ensure/ensure",
+    "pages/train/train",
+    "pages/NK/NK",
+    "pages/shifan/shifan",
+    "pages/tuan/tuan"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarBackgroundColor": "#E7FEF6",
+    "navigationBarTitleText": "小旗",
     "navigationBarTextStyle": "black"
   },
+  "tabBar": {
+    "selectedColor": "#30e1f1",
+    "list": [
+      {
+        "pagePath": "pages/homepage/homepage",
+        "iconPath": "/icon/icon_homepage.png",
+        "selectedIconPath": "/icon/icon_homepage_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "/icon/icon_mine.png",
+        "selectedIconPath": "/icon/icon_mine_selected.png",
+        "text": "NK国护队"
+      }
+    ]
+  },
+  "debug": true,
   "sitemapLocation": "sitemap.json"
 }

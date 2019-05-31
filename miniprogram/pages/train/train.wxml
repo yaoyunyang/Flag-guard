@@ -1,0 +1,28 @@
+<view class="topBar">
+  <view class="topBar-item">
+    <image src="../../images/NK/xunlian_icon_selected.png" />
+  </view>
+
+  <view class="topBar-item">
+    <image src="../../images/NK/tuan_icon.png" />
+  </view>
+
+  <view class="topBar-item">
+    <image src="../../images/NK/baozhang_icon.png" />
+  </view>
+
+  <view class="topBar-item">
+    <image src="../../images/NK/xuanchuan_icon.png" />
+  </view>
+</view>
+
+
+<view class="middle">
+  <view class="nkfg">
+    <image bindtap="to_tiaoling" class='nkfgwxss' src="../../images/NK/dongzuotiaoling.png" />
+
+  </view>
+  <view class="gxfg">
+    <image bindtap="to_shifan" class='gxfgwxss' src="../../images/NK/dongzuoshifan.png" />
+  </view>
+</view>

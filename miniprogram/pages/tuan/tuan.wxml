@@ -1,0 +1,29 @@
+<view class="topBar">
+  <view class="topBar-item">
+    <image src="../../images/NK/xunlian_icon.png" />
+  </view>
+
+  <view class="topBar-item">
+    <image src="../../images/NK/tuan_icon_selected.png" />
+  </view>
+
+  <view class="topBar-item">
+    <image src="../../images/NK/baozhang_icon.png" />
+  </view>
+
+  <view class="topBar-item">
+    <image src="../../images/NK/xuanchuan_icon.png" />
+  </view>
+</view>
+<text class='renyuan' bindtap="to_name_list">· 人员名单</text>
+<text class="kaoqin">· 考勤</text>
+<text class="teshurizi">· 特殊日子</text>
+<view class="content">
+  <view class="fst_part">
+    <image src="../../images/duiyuanmingdan.png" bindtap="to_name_list"/>
+    <image src="../../images/kaoqin.png" bindtap="to_more"/>
+  </view>
+  <view class="scd_part">
+    <image src="../../images/teshurizi.png" bindtap="to_calendar"/>
+  </view>
+</view>
